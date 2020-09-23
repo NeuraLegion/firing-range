@@ -67,6 +67,7 @@
 		<get src="https://repo1.maven.org/maven2/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar" dest="${war.dir}/WEB-INF/lib"/>
 		<get src="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar" dest="${war.dir}/WEB-INF/lib" />
 		<get src="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar" dest="${war.dir}/WEB-INF/lib"/>
+    <get src="https://repo1.maven.org/maven2/org/eclipse/ecf/javax.servlet/3.1.0.v201410161800/javax.servlet-3.1.0.v201410161800.jar" dest="${war.dir}/WEB-INF/lib"/>
 	</target>
 
   <target name="compile" depends="clean, getjars"
